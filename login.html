@@ -10,5 +10,32 @@
     />
     <link href="styles.css" rel="stylesheet" />
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <h2 class="text-center mt-5">Login</h2>
+      <form action="login.php" method="POST" class="mt-4">
+        <div class="mb-3">
+          <label for="username" class="form-label">Username:</label>
+          <input
+            type="text"
+            id="username"
+            name="username"
+            class="form-control"
+            required
+          />
+        </div>
+        <div class="mb-3">
+          <label for="password" class="form-label">Password:</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            class="form-control"
+            required
+          />
+        </div>
+        <button type="submit" class="btn btn-primary w-100">Login</button>
+      </form>
+    </div>
+  </body>
 </html>

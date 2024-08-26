@@ -1,1 +1,1 @@
-# User-Login-System-PHP
+Basic PHP project that involves superglobals
